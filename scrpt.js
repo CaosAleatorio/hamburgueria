@@ -173,7 +173,7 @@ function checkRestaurantOpen() {
 }
 
 const spanItem = document.getElementById("date-span")
-const isOpen = checkRestaurantOpen()
+const isOpen = checkRestaurantOpen();
 
 if (isOpen) {
     spanItem.classList.remove("bg-red-500")
